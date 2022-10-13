@@ -1,25 +1,19 @@
 # !/ bin / bash
 
-#include <stdio.h>
-
-
+#include<stdio.h>
 
 /*
- *
- * main - prints out a string via puts
- *
- * Description: Program that prints out the string s followed by a new line
- *
- * Return: 0 means no errors
+ * Description: Run puts and print statement
+ * Return: Return 0 to exit function
  */
-
 
 int main(void)
 
+/*
+ * main - initialization point
+ */
+
 {
-
-		puts("Programming is like building a multilingual puzzle\n");
-
-			return (0);
-
+	puts(" \"Programming is like building a multilingual puzzle");
+	return (0);
 }
