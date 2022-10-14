@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /*
  * Description: Run puts and print statement
@@ -7,7 +7,7 @@
  * main - initialization point
  */
 
-int main(void)
+int main(initialization)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
