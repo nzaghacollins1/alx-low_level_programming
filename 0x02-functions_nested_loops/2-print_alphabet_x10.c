@@ -4,20 +4,20 @@
  *
  * print_alphabet_x10 - prints x10 the alphabet in lowercase
  *
- * Return: 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-	int a;
+	int i;
 
-	for (a = 0; a < 10; a++)
+	for (i = 0; i < 10; i++)
 	{
-		char ab;
+		char ch;
 
-		for (ab = 'a'; ab < 'z'; ab++)
+		for (ch = 'a'; ch < 'z'; ch++)
 		{
-			_putchar(ab);
+			_putchar(ch);
 		}
 		_putchar('\n');
 	}
