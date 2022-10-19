@@ -2,7 +2,7 @@
 
 /**
  *
- * main - prints x10 the alphabet in lowercase
+ * print_alphabet_x10 - prints x10 the alphabet in lowercase
  *
  * Return: 0
  */
