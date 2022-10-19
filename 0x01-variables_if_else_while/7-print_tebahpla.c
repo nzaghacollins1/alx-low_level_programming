@@ -3,16 +3,16 @@
  /**
   * main - Prints lowercase in reverse.
   * 
-  * Return: Always 0.
+  * Return: Always 0, successful
   */ 
 int main(void) 
 {
-         char rev; 
-  
-         for (rev = 'z'; rev >= 'a'; rev--)
-	 
- 	        putchar(rev);
-	 
+         char a;
+	 {  
+         for (a = 'z'; a >= 'a'; a--)
+	 }
+ 	        putchar(a);
+
          putchar('\n');
   	 
          return (0);
