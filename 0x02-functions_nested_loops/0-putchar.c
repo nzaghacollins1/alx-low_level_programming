@@ -3,7 +3,7 @@
 
 /**
  * main - function print text as output
- * 
+ *
  * Return: 0, successful
  *
  */
