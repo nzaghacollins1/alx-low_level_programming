@@ -19,10 +19,9 @@ void print_diagonal(int n)
 		{
 			for (line = 0; line < j; line++)
 			{
-				putchar(10);
-			}
 			_putchar(92);
 			_putchar('\n');
+			}
 		}
 	}
 }
