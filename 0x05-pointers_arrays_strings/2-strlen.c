@@ -9,8 +9,10 @@
  */
 int _strlen(char *s)
 {
-	char id[4] = "alx";
-	char length = strlen(id);
+	char *a;
+	int length;
 
-	return (id);
+	a = "alx";
+
+	length = _strlen(a);
 }
