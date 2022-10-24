@@ -9,10 +9,9 @@
  */
 int _strlen(char *s)
 {
-	char *a;
-	int length;
+	int i;
 
-	a = "alx";
-
-	length = _strlen(a);
+	for (i = 0; s[i] != '\0'; i++)
+	
+		return (i);
 }
