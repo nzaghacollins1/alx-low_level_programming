@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *_print_array - print n element of an array
+ *print_array - print n element of an array
  *@a: first int
  *@n: second int
  *
@@ -10,11 +10,17 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int j;
 
-	for (i = 0; i < (n - 1); i++)
-		printf("%d, ", a[i]);
-		if (i == (n - 1))
-			printf("%d", a[n - 1]);
+	for (j = 0; j < n; j++)
+	{
+		printf("%d", a[j]);
+
+		if (j != (n - 1))
+		{
+			printf(", ");
+		}
+	}
+
 	printf("\n");
 }
