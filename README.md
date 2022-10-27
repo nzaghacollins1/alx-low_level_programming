@@ -9,3 +9,5 @@ This folder(s) contains some foundational learning into the C programming langua
 # [0x02-functions_nested_loops](https://github.com/nzaghacollins1/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
 # [0x03-debugging](https://github.com/nzaghacollins1/alx-low_level_programming/tree/master/0x03-debugging)
 # [0x04-more_functions_nested_loops](https://github.com/nzaghacollins1/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+# [0x05-pointers_arrays_strings](https://github.com/nzaghacollins1/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+# [0x06-pointers_arrays_strings](https://github.com/nzaghacollins1/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
