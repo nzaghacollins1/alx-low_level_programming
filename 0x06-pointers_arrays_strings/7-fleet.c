@@ -6,27 +6,23 @@
  *
  *Return: @a
  */
-char *leet(char *a)
+char *leet(char *j)
 {
-	char lt[10][2] = {
-		{'a', '0' + 4}, {'A', '0' + 4},
-		{'e', '0' + 3}, {'E', '0' + 3},
-		{'o', '0'}, {'O', '0'},
-		{'t', '0' + 7}, {'T', '0' + 7},
-		{'l', '0' + 1}, {'L', '0' + 1}};
-	int i = 0;
-	int j = 0;
+	int i, x;
+	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int replacer[] = {'4', '3', '0', '7', '1'};
 
-	while (a[i] != '\0')
+	for (i = 0; j[i] != '\0'; i++)
 	{
-		while (lt[j][0] != '\0')
+		for (x = 0; x <= 9; x++)
 		{
-			if (a[i] == lt[j][0])
-				a[i] = lt[j][1];
-			j++;
+			if (j[i] == find[x])
+			{
+				j[i] = replacer[x / 2];
+				x = 9;
+			}
 		}
-		j = 0;
-		i++;
 	}
-	return (a);
+
+	return (j);
 }
